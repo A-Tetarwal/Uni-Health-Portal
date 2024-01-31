@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="Style New User.css">
+</head>
+<body>
+    <header>
+        <h1>User Registration</h1>
+        <p>Create a new account. <br><br>
+            <b>Existing User</b>
+            <a href="Log in.html"><b>Login</b></a>
+        </p>
+    </header>
+    
+    <section>
+        <h2>Register Here</h2>
+        
+        <form>
+            <label for="continueWith">Continue with:</label>
+            <select id="continueWith" name="continueWith" required>
+                <option value="phone">Phone Number</option>
+                <option value="gmail">Gmail</option>
+            </select><br><br>
+            
+            <label for="identifier">Phone Number or Gmail:</label>
+            <input type="text" id="identifier" name="identifier" required><br><br>
+            
+            <label for="password">Password (optional):</label>
+            <input type="password" id="password" name="password"><br><br>
+            
+            <button type="submit">Register</button><br>
+
+            <p>or</p><hr>
+            
+            <a href="YOUR_BACKEND_GMAIL_OAUTH2_ENDPOINT" class="continue-with-gmail-button">
+                Continue with Gmail
+            </a>
+        </form>
+    </section>
+
+    <footer> 
+        <br>
+        <a href="Complete Registration.html">Complete Registration</a>
+        <h3>Go for complete Registration, Can be done later</h3>
+
+        <br><hr>
+
+        <p>Contact us at <a href="nhpindia@gov.in">nhpindia@gov.in</a></p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#chatbox{
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+#chatbox p{
+    margin: 5px 0;
+}
+
+#message{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a :hover{
+    background-color: blue;
+} */
+
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Style for the chatbox */
+#chatbox {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+/* Style for chat messages */
+#chatbox p {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Style for the input field */
+#message {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Style for the send button */
+button {
+    margin: 2px;
+    padding: 5px 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the send button on hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the emergency link */
+p a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Style for the emergency link on hover */
+p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Support</title>
+    <link rel="stylesheet" href="StyleCHAT.css">
+</head>
+<body>
+    <h1>Welcome to Chat Support</h1>
+
+    <!-- This is where the chat messages will be displayed -->
+    <div id="chatbox"></div>
+
+    <!-- Input field for typing messages -->
+    <input type="text" id="message" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        function sendMessage() {
+            var message = document.getElementById("message").value;
+            var chatbox = document.getElementById("chatbox");
+            
+            // Display the message in the chatbox
+            chatbox.innerHTML += "<p>You: " + message + "</p>";
+            
+            // You can send the message to your server or another chat service here
+            
+            // Clear the input field
+            document.getElementById("message").value = "";
+        }
+    </script>
+    <p>for emergency case, you can go for a call to consultant, 
+        <a href="Consult Doctor.html" target="_blank">Click here</a>
+    </p>
+</body>
+</html>

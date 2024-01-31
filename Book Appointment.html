@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="Style Book Appointment.css">
+</head>
+<body>
+    <header>
+        <h1>Book an Appointment</h1>
+        <p>Schedule your appointment with our healthcare center.</p>
+    </header>
+    
+    <section>
+        <h2>Appointment Details</h2>
+        <p>Fill out the form below to book your appointment:</p>
+        
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+            
+            <label for="doctor">Select Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="dr_smith">Dr. Smith</option>
+                <option value="dr_jones">Dr. Jones</option>
+                <!-- Add more doctors as needed -->
+            </select><br><br>
+            
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Get <a href="Chat Support.html">Chat Support</a> instead</p>
+        <p id="Contact">Contact us at: <a href="mailto:appointments@healthcenter.com">appointments@healthcenter.com</a></p>
+    </footer>
+</body>
+</html>
